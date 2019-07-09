@@ -1,6 +1,7 @@
-def h()
-	puts "Bonjour, monde!"
-end
-h()
+puts "Bonjour, monde!"
 
-puts "Et avec une vois sexy, ça donne: #{h}
+def h(hi)
+	puts "Et avec une vois sexy, ça donne: #{hi}"
+end
+h("Bonjour, monde!")
+
